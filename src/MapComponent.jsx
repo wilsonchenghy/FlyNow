@@ -6,17 +6,17 @@ const containerStyle = {
 };
 
 const center = {
-  lat: -5,
-  lng: -40
+  lat: 22.302711,
+  lng: 114.177216
 };
 
 const MapComponent = () => {
   return (
-    <LoadScript googleMapsApiKey="">
+    <LoadScript googleMapsApiKey="AIzaSyCrv9jWPTVkD6NnwXINhoqBXuAPkYZPzHA">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={10}
+        zoom={12}
       ></GoogleMap>
     </LoadScript>
   );
